@@ -5,6 +5,20 @@
     <body>
         <h1>login form</h1>
 
-        <!-- put your form here -->
+        <form
+            action="http://localhost:5000/login"
+            method="POST">
+            
+            <div>
+                <label for="username">User name</label>
+                <input type="text" name="username" placeholder="Username">
+            </div>
+            <div>
+                <label for="pass">password</label>
+                <input type="password" name="pass" placeholder="Passsword">
+            </div>
+            <input type="submit" value="Login">
+            
+        </form>
     </body>
 </html>
